@@ -95,9 +95,9 @@ Have them saved before proceeding.
 
 ### Essentials
 
-* **ReWin Custom Scripts**
+* **My Custom Scripts** [Documentation Here]
 
-  * Source: Download the scripts directly from this repository.
+ * Source: Download the scripts directly from this [Scripts](Scripts) folder.
 
 * **Choice of Browser (e.g., Firefox, Ungoogled Chromium)**
 
