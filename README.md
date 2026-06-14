@@ -2,6 +2,9 @@
 ### This project aims to maximize your Windows performance by minimizing system overhead.
 Note: This repository strictly covers OS and software-level optimizations; it does not involve hardware tuning, BIOS modifications, overclocking, or RAM tightening.
 
+> [!WARNING]
+> **Important:** I am not responsible for anything that happens to you or your system. Use thhis guide completely at your own risk.
+
 ## Table of Contents
 - [Choosing The Edition](#choosing-the-edition)
   - [Why not Server?](#why-not-server)
