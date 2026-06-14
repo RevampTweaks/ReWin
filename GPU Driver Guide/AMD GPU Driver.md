@@ -43,7 +43,7 @@ Download the official installer matching your graphics hardware directly from th
 
 ## Step 3: Post-Install Cleanup
 
-1. Run `AMD GPU Driver Post Cleanup.ps1` to remove remaining driver bloatware.
+1. Run [`AMD GPU Driver Post Cleanup.ps1`](Scripts/AMD%20GPU%20Driver%20Post%20Cleanup.ps1) to remove remaining driver bloatware.
 
 2. Press `Win + R`, type `services.msc`, and press **Enter**.
 
