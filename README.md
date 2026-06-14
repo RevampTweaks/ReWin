@@ -97,7 +97,7 @@ Have them saved before proceeding.
 
 * **My Custom Scripts** [Documentation Here]
 
- * Source: Download the scripts directly from this [Scripts](Scripts) folder.
+ * Source: Download the scripts directly from [Scripts](Scripts) folder.
 
 * **Choice of Browser (e.g., Firefox, Ungoogled Chromium)**
 
