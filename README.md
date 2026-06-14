@@ -247,6 +247,10 @@ wsreset-i
 25. Reboot. (The Store & UWP Frameworks would have been installed by now too).
 
 26. Repeat Step 12 & Step 15.
+> If you have an AMD CPU then disable Intel(R) Power Engine Plug-in Driver via running this in PowerShell. Don't run if you are an Intel user.
+ ```powershell
+Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\intelpep" -Name "Start" -Value 4 -Type DWord
+```
 
 27. Right click on `_RunMe2.ps1` & Run with PowerShell.
 
