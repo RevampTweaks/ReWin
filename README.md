@@ -260,5 +260,8 @@ Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\intelpep" -Name 
 
 30. Reboot.
 
+31. Configure the Timer Resolution we downloaded earlier by following its respective documentation which I linked above.
 
-
+- I Perosonally don't create a scheduled task, rather I place my shortcut in the windows startup directory.
+  ```cmd
+  shell:startup
