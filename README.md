@@ -266,6 +266,7 @@ Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\intelpep" -Name 
   ```cmd
   shell:startup
   ```
+32. Install your apps and games, enjoy!
 
 ## Cleanup
 
@@ -286,3 +287,5 @@ temp
 ```cmd
 %temp%
 ```
+
+4. Use `Autoruns64.exe` to cleanup any residual files if present.
