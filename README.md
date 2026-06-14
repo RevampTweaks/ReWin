@@ -1,5 +1,5 @@
 # ReWin- Windows Optimization Guide
-### This project aims to maximize your Windows performance by minimizing system overhead.
+### This project aims to minimize system overhead to increase performance.
 Note: This repository strictly covers OS and software-level optimizations; it does not involve hardware tuning, BIOS modifications, overclocking, or RAM tightening.
 
 > [!WARNING]
