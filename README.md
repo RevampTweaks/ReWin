@@ -3,7 +3,7 @@
 Note: This repository strictly covers OS and software-level optimizations; it does not involve hardware tuning, BIOS modifications, overclocking, or RAM tightening.
 
 > [!WARNING]
-> **Important:** I am not responsible for anything that happens to you or your system. Use thhis guide completely at your own risk.
+> **Important:** I am not responsible for anything that happens to you or your system. Use this guide completely at your own risk.
 
 ## Table of Contents
 - [Choosing The Edition](#choosing-the-edition)
