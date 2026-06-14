@@ -219,7 +219,7 @@ shutdown /r /t 0
 ```powershell
 wsreset-i
 ```
->This installs the Windows Store & the required dependencies and frameworks like Store Experience Host, Xbox Identity Provider, etc.
+>This installs the Windows Store & the required dependencies and frameworks like Store Experience Host, Xbox Identity Provider, etc. (Important for games like Forza Horizon 6 which requires the new Gaming Services app).
 
 
 20. Repeat Step 12 & Step 15.
