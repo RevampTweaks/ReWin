@@ -95,7 +95,7 @@ Have them saved before proceeding.
 
 ### Essentials
 
-* **My Custom Scripts** [Documentation Here]
+* **My Custom Scripts** [Feel free to analyze the files beforehand.]
 
  * Source: Download the scripts directly from [Scripts](Scripts) folder.
 
@@ -265,3 +265,24 @@ Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\intelpep" -Name 
 - I Perosonally don't create a scheduled task, rather I place my shortcut in the windows startup directory.
   ```cmd
   shell:startup
+  ```
+
+## Cleanup
+
+1. Disable System Restore Points for all drives via:
+```cmd
+systempropertiesprotection
+```
+
+2. Run Disk Cleaup via:
+```cmd
+cleanmgr.exe /sageset:1
+```
+
+3. Delete their contents.
+```cmd
+temp
+```
+```cmd
+%temp%
+```
