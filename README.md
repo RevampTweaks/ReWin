@@ -176,15 +176,16 @@ Have them saved before proceeding.
 
 2. Unplug your ethernet cable or ensure you have no active internet connection before proceeding.
 
-3. Boot from your installation USB, perform a clean install by explicitly selecting **Windows 11 IoT Enterprise LTSC** from the OS variants list, and open the command prompt by pressing `Shift + F10` when on the OOBE screen.
+3. Boot from your installation USB, select your language and region, perform a clean install by explicitly selecting **Windows 11 IoT Enterprise LTSC** from the OS variants list, and open the command prompt by pressing `Shift + F10` when on the OOBE screen.
 
 4. Run:
 
 ```cmd
 net user Administrator /active:yes
-shutdown /r /t 0
+cd OOBE
+msoobe && shutdown -r
 ```
-5. After the PC reboots, select your region and language settings and if you see a prompt for entring a username, again run the same commands in Step 4. It should then boot straight up into the desktop after configuring the regional and language options without asking for a username this time.
+5. After the PC reboots, it might prompt for privacy options, uncheck all & confirm. Now you will be on the home screen.
 
 6. Don't connect to the internet just yet.
 
