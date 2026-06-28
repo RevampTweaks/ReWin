@@ -1,10 +1,21 @@
 Write-Host "Triggering AMD MSI Uninstaller Silently..."
 
-$ProductCode = "{E7AAA003-D847-40C9-BF3E-0DB659A950C7}"
-$Arguments = "/X $ProductCode /qn /norestart"
+$productName = "AMD Install Manager"
 
-Start-Process -FilePath "msiexec.exe" -ArgumentList $Arguments -Wait -Verb RunAs
+# Find installed MSI products whose DisplayName matches
+$product = Get-CimInstance Win32_Product |
+  Where-Object { $_.Name -like "*$productName*" } |
+  Select-Object -First 1
 
+if (-not $product) {
+  throw "Could not find an installed MSI product matching name: $productName"
+}
+
+# Convert MSI Product GUID from IdentifyingNumber
+$productCode = $product.IdentifyingNumber
+
+$arguments = "/X $productCode /qn /norestart"
+Start-Process -FilePath "msiexec.exe" -ArgumentList $arguments -Wait -Verb RunAs
 Write-Host "Cleaning up registry folders entry..."
 
 $RegPath = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\Folders"
